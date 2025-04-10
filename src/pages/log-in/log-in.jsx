@@ -1,10 +1,10 @@
 import React from 'react'
 import './log-in.css'
 
-function log_in() {
+function Log_in() {
   return (
     <div>log-in</div>
   )
 }
 
-export default log_in
+export default Log_in

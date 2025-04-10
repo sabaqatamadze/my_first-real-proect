@@ -1,10 +1,10 @@
 import React from 'react'
 import './cart.css'
 
-function cart() {
+function Cart() {
   return (
-    <div>cart</div>
+    <div>Cart</div>
   )
 }
 
-export default cart
+export default Cart

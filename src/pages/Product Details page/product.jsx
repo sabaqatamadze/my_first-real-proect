@@ -1,10 +1,10 @@
 import React from 'react'
 import './product.css'
 
-function product() {
+function Product() {
   return (
-    <div>product</div>
+    <div>Product</div>
   )
 }
 
-export default product
+export default Product

@@ -1,10 +1,10 @@
 import React from 'react'
-import './sing-up.css'
+import './sign-up.css'
 
-function sing_up() {
+function Sign_up() {
   return (
     <div>sing-up</div>
   )
 }
 
-export default sing_up
+export default Sign_up

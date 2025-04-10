@@ -1,10 +1,11 @@
 import React from 'react'
-import './footer.css'
+import './fotter.css'
 
-function footer() {
+function Fotter() {
   return (
     <div>nav-bar</div>
+    
   )
 }
 
-export default footer
+export default Fotter
