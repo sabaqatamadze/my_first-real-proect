@@ -17,7 +17,7 @@ const Nav_bar = () =>  {
       <NavLink to="/sign-up" className='link'>Sign Up</NavLink>
       </div>
       <div className='search'>
-        <input type="text" placeholder='What are you looking for?' className='search-input' />
+        <input type="text" placeholder='What are you looking for?' className='search_input' />
         <CiSearch  className='search_icon'/>
       </div>
       <div className='cart'>

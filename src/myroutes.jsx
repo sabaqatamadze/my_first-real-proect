@@ -23,11 +23,11 @@ function Myroutes() {
       <Route path='/account' element={<Account/>}/>
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/checkout' element={<CheckOut/>}/>
-      <Route path='contact' element={<Contact/>}/>
-      <Route path='log-in' element={<Log_in/>}/>
-      <Route path='product' element={<Product/>}/>
-      <Route path='sign-up' element={<Sign_up/>}/>
-      <Route path='wishlist' element={<Wishlist/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/log-in' element={<Log_in/>}/>
+      <Route path='/product' element={<Product/>}/>
+      <Route path='/sign-up' element={<Sign_up/>}/>
+      <Route path='/wishlist' element={<Wishlist/>}/>
       <Route path='*' element={<Error/>}/>
 
       

@@ -1,5 +1,6 @@
 import React from 'react'
 import Myroutes from './myroutes'
+import './App.css'
 
 function App() {
   return (

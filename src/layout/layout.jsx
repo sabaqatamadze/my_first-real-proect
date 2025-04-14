@@ -1,14 +1,14 @@
 import React from 'react'
 import Nav_bar from '../components/nav-bar/nav-bar'
 import { Outlet } from 'react-router-dom'
-import Fotter from '../components/Fotter/fotter'
+import Footer from '../components/Fotter/Fotter'
 
 function Layout() {
   return (
     <div>
         <Nav_bar/>
         <Outlet/>
-        <Fotter/>
+        <Footer/>
     </div>
   )
 }
