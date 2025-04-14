@@ -1,1 +1,1 @@
-my first project from new step academy
+my first project from next step academy
