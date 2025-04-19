@@ -1,0 +1,66 @@
+.log-in {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.log-in .img-container img {
+  height: 700px;
+  width: 805px;
+}
+.log-in .info {
+  margin: 110px auto;
+}
+.log-in .info .title {
+  font-size: 40px;
+  font-weight: 700px;
+  color: #000000;
+}
+.log-in .info .description {
+  font-size: 20px;
+  font-weight: 400px;
+  color: #000000;
+}
+
+.log-in .info .username {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid rgb(197, 195, 195);
+  padding-left: 10px;
+  font-size: 18px;
+}
+.log-in .info .password {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid rgb(197, 195, 195);
+  padding-left: 10px;
+  font-size: 18px;
+}
+.log-in .info .log-in-btn {
+  margin-top: 20px;
+  width: 130px;
+  height: 50px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 700px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.log-in .info .log-in-btn:hover {
+  background-color: rgb(255, 0, 0, 0.8);
+}
+.log-in .info .forgot-password {
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  margin-left: 200px;
+}
