@@ -1,0 +1,28 @@
+.error {
+  width: 90%;
+  margin: 100px auto;
+}
+.error .link .home {
+  color: rgba(0, 0, 0, 0.6);
+}
+.error .text {
+  text-align: center;
+}
+.error .text .not-found {
+  font-size: 8rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+.error .text .back-home-page {
+  margin-bottom: 100px;
+}
+.error .text .back-home-page {
+  text-decoration: none;
+  padding: 15px 40px 15px 40px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700px;
+  cursor: pointer;
+  border-radius: 5px;
+}
