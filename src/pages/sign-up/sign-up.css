@@ -1,0 +1,97 @@
+.sign-up {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.sign-up .img-container img {
+  height: 700px;
+  width: 805px;
+}
+
+.sign-up .info {
+  margin: 50px auto;
+}
+
+.sign-up .info .title {
+  font-size: 40px;
+  font-weight: 700px;
+  color: #000000;
+}
+.sign-up .info .description {
+  font-size: 20px;
+  font-weight: 400px;
+  color: #000000;
+}
+
+.sign-up .info .name {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid rgb(197, 195, 195);
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.sign-up .info .username {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid rgb(197, 195, 195);
+  padding-left: 10px;
+  font-size: 18px;
+}
+.sign-up .info .password {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid rgb(197, 195, 195);
+  padding-left: 10px;
+  font-size: 18px;
+}
+.sign-up .info .sign-up-btn {
+  margin-top: 20px;
+  width: 410px;
+  height: 50px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 700px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.sign-up .info .sign-up-btn:hover {
+  background-color: rgb(255, 0, 0, 0.8);
+}
+.sign-up .info .sign-up-google {
+  margin-top: 20px;
+  width: 410px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-size: 18px;
+  font-weight: 700px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up .info .google-icon {
+  font-size: 1.5rem;
+}
+.sign-up .info .owned {
+  margin-left: 90px;
+  font-size: 1.2rem;
+}
+.sign-up .info .owned .link {
+  color: black;
+}
