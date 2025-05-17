@@ -1,0 +1,146 @@
+.home {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.home hr {
+  width: 1250px;
+}
+
+.home .home-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.home .home-container .home-left {
+  height: 350px;
+  border-right: 1px solid rgb(182, 172, 172);
+  padding-top: 20px;
+  margin-left: 150px;
+}
+
+.home .home-container .home-left .icon {
+  margin-left: 70px;
+  margin-right: 10px;
+}
+.home .home-container .home-right {
+  padding-top: 20px;
+}
+.home .home-container .home-right img {
+  width: 900px;
+}
+.secend-layer {
+  margin-left: 150px;
+}
+.secend-layer .day {
+  display: flex;
+  align-items: center;
+}
+.secend-layer .day .small-container {
+  width: 15px;
+  height: 25px;
+  background-color: red;
+  border-radius: 5px;
+}
+.secend-layer .day .today {
+  margin-left: 10px;
+  color: red;
+}
+.secend-layer .time {
+  display: flex;
+  justify-content: space-between;
+}
+.secend-layer .time .title {
+  font-size: 1.7rem;
+}
+.secend-layer .time .container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 150px;
+}
+.secend-layer .time .container .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.secend-layer .products {
+  display: flex;
+  flex-direction: row;
+}
+
+.secend-layer .prodact {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-left: 40%;
+}
+
+.secend-layer .category-container {
+  width: 1250px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.secend-layer .category-container .category {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid rgb(182, 172, 172);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.secend-layer .category-container .category .icon {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+.secend-layer .category-container .category .title {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.secend-layer .time .container .prodact {
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-left: 40%;
+}
+
+.home .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.home .img img {
+  width: 1250px;
+}
+.home .img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+  margin-top: 80px;
+}
+.home .img2 img {
+  width: 700px;
+}

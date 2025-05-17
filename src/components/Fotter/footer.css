@@ -28,6 +28,8 @@
   border-radius: 4px;
   text-align: middle;
   width: 120px;
+  color: white;
+  outline: none;
 }
 .footer .footer_discount .footer_input .footer_icon {
   font-size: 1rem;

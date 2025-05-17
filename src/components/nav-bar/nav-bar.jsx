@@ -23,11 +23,7 @@ const Nav_bar = () =>  {
       <div className='cart'>
         <Link to="/wishlist" className='icon'><CiHeart/></Link>
         <Link to="/cart" className='icon'><CiShoppingCart/></Link>
-        
-
       </div>
-      
-      
     </div>
   )
 }
