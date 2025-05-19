@@ -1,7 +1,64 @@
 .cartItem {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.cartItem .cartitem-discount .dicount {
+  position: absolute;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  height: 10px;
+}
+.cartItem .cartitem-discount .wishlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 15px;
+  right: 0;
+  background-color: rgb(128, 128, 128);
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.cartItem .cartitem-discount .eye {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 55px;
+  right: 0;
+  background-color: rgb(128, 128, 128);
+  padding: 5px;
+  border-radius: 50%;
+}
+.cartItem .cartitem-name .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cartItem .cartitem-price {
+  display: flex;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+.cartItem .cartitem-price .newPrice {
+  color: red;
+}
+.cartItem .cartitem-price .Price {
+  color: rgb(128, 128, 128);
+  text-decoration: line-through;
 }

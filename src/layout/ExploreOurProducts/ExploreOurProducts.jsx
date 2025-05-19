@@ -1,10 +1,9 @@
 import React from 'react'
 import './ExploreOurProducts.css'
 
-function ExploreOurProducts({title, children}) {
+function ExploreOurProducts({ children}) {
   return (
     <div className='ExploreOurProducts'>
-        {title}
         <div className='ExploreOurProducts-container'>{children}</div>
     </div>
   )

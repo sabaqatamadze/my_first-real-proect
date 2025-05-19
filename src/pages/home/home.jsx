@@ -10,6 +10,7 @@ import { CiCamera,CiHeadphones } from "react-icons/ci";
 import { SiNintendo3Ds } from "react-icons/si";
 import BestSellingProduct from './components/BestSellingProduct/BestSellingProduct';
 import ExploreOurProduct from './components/ExploreOurProduct/ExploreOurProduct';
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -17,15 +18,15 @@ function Home() {
     <div className='home'>
       <div className='home-container'>
         <div className='home-left'>
-        <p className='p'>Woman’s Fashion  <span className='icon'><MdOutlineArrowForwardIos /></span></p>
-        <p className='p'>Men’s Fashion <span className='icon'><MdOutlineArrowForwardIos /></span></p>
-        <p>Electronics</p>
-        <p>Home & Lifestyle</p>
-        <p>Medicine</p>
-        <p>Sports & Outdoor</p>
-        <p>Baby’s & Toys</p>
-        <p>Groceries & Pets</p>
-        <p>Health & Beauty</p>
+        <Link to="/" className='p'>Woman’s Fashion  <span className='icon'><MdOutlineArrowForwardIos /></span></Link>
+        <Link to="/" className='p'>Men’s Fashion <span className='icon'><MdOutlineArrowForwardIos /></span></Link>
+        <Link to="/" className='p'>Electronics</Link>
+        <Link to="/" className='p'>Home & Lifestyle</Link>
+        <Link to="/" className='p'>Medicine</Link>
+        <Link to="/" className='p'>Sports & Outdoor</Link>
+        <Link to="/" className='p'>Baby’s & Toys</Link>
+        <Link to="/" className='p'>Groceries & Pets</Link>
+        <Link to="/" className='p'>Health & Beauty</Link>
         </div>
         <div className='home-right'>
           <img src="src/pic/Frame 560.png" alt="" /></div>

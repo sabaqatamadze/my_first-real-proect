@@ -12,6 +12,7 @@ import Product from './pages/Product Details page/product'
 import Sign_up from './pages/sign-up/sign-up'
 import Wishlist from './pages/Wishlist/Wishlist'
 import Error from './pages/404 Error/404_Error'
+import Category from './pages/Category/Category'
 
 
 function Myroutes() {
@@ -25,6 +26,7 @@ function Myroutes() {
       <Route path='/checkout' element={<CheckOut/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/log-in' element={<Log_in/>}/>
+      <Route path='/category/:category_id' element={<Category/>}/>
       <Route path='/product' element={<Product/>}/>
       <Route path='/sign-up' element={<Sign_up/>}/>
       <Route path='/wishlist' element={<Wishlist/>}/>

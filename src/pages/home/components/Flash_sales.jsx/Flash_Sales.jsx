@@ -7,8 +7,8 @@ function Flash_Sales() {
     const [flashSales, setFlashSales] = useState()
 
     useEffect(() => {
-        getAllProducts(0,4).then((resp) => setFlashSales(resp.products)
-        )
+        getAllProducts(0,4).then((resp) => setFlashSales(resp.products));
+        
     }, [])
   return (
     <>
@@ -23,11 +23,11 @@ function Flash_Sales() {
             <CartItem
               key={el.id}
               id={el.id}
-              title={el.title}
               thumbnail={el.thumbnail}
+              title={el.title}
               price={el.price}
               discountPercentage={el.discountPercentage}
-            />
+              />
           ))}
         </FlashSales>
       )}
