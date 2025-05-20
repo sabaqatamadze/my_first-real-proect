@@ -1,6 +1,7 @@
 .cartItem {
   position: relative;
   margin-bottom: 70px;
+  margin-left: 20px;
 }
 
 .cartItem .cartitem-discount .dicount {

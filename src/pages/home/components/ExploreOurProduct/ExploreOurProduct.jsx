@@ -1,7 +1,7 @@
 import  { useState, useEffect } from "react";
 import { getAllProducts } from '../../../../helper/helper'
-import CartItem from "../../../../components/Cartitem/cartitem";
 import ExploreOurProducts from "../../../../layout/ExploreOurProducts/ExploreOurProducts";
+import CartItem from "../../../../components/CartItem/cartItem";
 
 function ExploreOurProduct() {
     const [ExploreOurProduct, setExploreOurProduct] = useState()

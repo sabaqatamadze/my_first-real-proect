@@ -1,7 +1,7 @@
 import  { useState, useEffect } from "react";
 import { getAllProducts } from '../../../../helper/helper'
 import FlashSales from "../../../../layout/FlashSales/FlashSales";
-import CartItem from "../../../../components/Cartitem/cartitem";
+import CartItem from "../../../../components/CartItem/cartItem";
 
 function Flash_Sales() {
     const [flashSales, setFlashSales] = useState()

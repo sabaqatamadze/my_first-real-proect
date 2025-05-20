@@ -1,0 +1,8 @@
+.categories-layout {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  border-right: 1px solid rgb(182, 172, 172);
+  padding-top: 20px;
+  margin-left: 150px;
+}

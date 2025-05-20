@@ -1,7 +1,7 @@
 import  { useState, useEffect } from "react";
 import { getAllProducts } from '../../../../helper/helper'
-import CartItem from "../../../../components/Cartitem/cartitem";
 import BestSellingProducts from "../../../../layout/BestSellingProducts/BestSellingProducts";
+import CartItem from "../../../../components/CartItem/cartItem";
 
 function BestSellingProduct() {
     const [bestSellingProducts, setbestSellingProducts] = useState()

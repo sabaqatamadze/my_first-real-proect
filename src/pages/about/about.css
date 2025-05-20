@@ -1,0 +1,77 @@
+.about {
+  margin: 0;
+  padding: 0;
+}
+
+.about .first-layer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+.about .first-layer .our-story {
+  width: 500px;
+  margin-left: 170px;
+}
+.about .first-layer .our-story .title {
+  font-size: 50px;
+  font-weight: 700;
+}
+.about .first-layer .our-story .story {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.about .secend-layer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 70px;
+}
+.about .secend-layer .category {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid rgb(182, 172, 172);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .secend-layer .category .img img {
+  height: 70px;
+  width: 70px;
+  margin: 0;
+  padding: 0;
+}
+.about .secend-layer .category .img {
+  margin-bottom: 0px;
+}
+.about .secend-layer .category .name {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  padding: 0;
+  margin-bottom: 0;
+}
+.about .secend-layer .category .name1 {
+  font-size: 0.9rem;
+  margin-top: 0;
+}
+
+.about .thired-layer .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.about .thired-layer .img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
