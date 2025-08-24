@@ -11,8 +11,8 @@ import Log_in from './pages/log-in/log-in'
 import Product from './pages/Product Details page/product'
 import Sign_up from './pages/sign-up/sign-up'
 import Wishlist from './pages/Wishlist/Wishlist'
-import Error from './pages/404 Error/404_Error'
 import Category from './pages/Category/Category'
+import Error404 from './pages/Error404/Error404'
 
 
 function Myroutes() {
@@ -30,7 +30,7 @@ function Myroutes() {
       <Route path='/product' element={<Product/>}/>
       <Route path='/sign-up' element={<Sign_up/>}/>
       <Route path='/wishlist' element={<Wishlist/>}/>
-      <Route path='*' element={<Error/>}/>
+      <Route path='*' element={<Error404/>}/>
 
       
       </Route>

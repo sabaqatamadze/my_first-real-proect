@@ -1,11 +1,11 @@
-import './404_error.css'
+import './Error404.css'
 import { Link } from 'react-router-dom'
 
-function Error() {
+function Error404() {
   return (
     <div className='error'>
       <div className='link'>
-        <span className='home'>Home</span> / <span clas>404-Error</span>
+        <span className='home'>Home</span> / <span >404-Error</span>
       </div>
       <div className='text'>
         <p className='not-found'>404 Not Found</p>
@@ -18,4 +18,4 @@ function Error() {
   )
 }
 
-export default Error
+export default Error404
