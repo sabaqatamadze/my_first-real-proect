@@ -1,6 +1,6 @@
 import ProductsLayout from "./../../layout/ProductsLayout/ProductsLayout";
 import { getCategoryProducts } from "./../../helper/helper";
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./Category.css";
 import CartItem from "../../components/CartItem/cartItem";

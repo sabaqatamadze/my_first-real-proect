@@ -1,5 +1,4 @@
-import React from 'react'
-import './cartitem.css'
+import './Cartitem.css'
 import { CiHeart } from "react-icons/ci";
 import { FaRegEye } from "react-icons/fa";
 
