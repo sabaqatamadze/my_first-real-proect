@@ -2,7 +2,7 @@ import './Account.css'
 
 function Account() {
   return (
-    <div>Acoount</div>
+    <div className='account'>Account</div>
   )
 }
 
