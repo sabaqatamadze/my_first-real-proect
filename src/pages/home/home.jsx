@@ -11,6 +11,8 @@ import { SiNintendo3Ds } from "react-icons/si";
 import BestSellingProduct from './components/BestSellingProduct/BestSellingProduct';
 import ExploreOurProduct from './components/ExploreOurProduct/ExploreOurProduct';
 import Categories from '../Categories/Categories';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 
 function Home() {
@@ -21,7 +23,8 @@ function Home() {
         <Categories/>
         </div>
         <div className='home-right'>
-          <img src="src/pic/Frame 560.png" alt="" /></div>
+          <img src="src/pic/Frame 560.png" alt="" className='img1'/>
+          </div>
       </div>
       <br />
       <br />
@@ -31,7 +34,18 @@ function Home() {
       <div className='secend-layer'>
         <div className='day'><div className='small-container'></div> <p className='today'>Today’s</p></div>
         <div className='time'><p className='title'>Flash Sales</p> <div className='container'><button className='arrow'><FaArrowLeft/></button><button className='arrow'><FaArrowRight/></button></div></div>
-        <div className='products'> <Flash_Sales/> </div>
+        <div className='products'><Swiper
+      spaceBetween={1250}
+      slidesPerView={2}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide><Flash_Sales/></SwiperSlide>
+      <SwiperSlide><BestSellingProduct/></SwiperSlide>
+      <SwiperSlide></SwiperSlide>
+      </Swiper> 
+      </div>
+
         <button className='prodact'>View All Products</button>
       </div>
       <br />
@@ -45,7 +59,7 @@ function Home() {
         <div className='day'><div className='small-container'></div> <p className='today'>Categories</p></div>
         <div className='time'><p className='title'>Browse By Category</p> <div className='container'><button className='arrow'><FaArrowLeft/></button><button className='arrow'><FaArrowRight/></button></div></div>
         <div className='category-container'>
-          <div className='category'><p className='icon'><MdOutlinePhoneIphone/></p>  <p className='title'>Phones</p></div>
+          <div className='category phone'><p className='icon'><MdOutlinePhoneIphone/></p>  <p className='title'>Phones</p></div>
           <div className='category'><p className='icon'><HiOutlineDesktopComputer/></p>  <p className='title'>Computers</p></div>
           <div className='category'><p className='icon'><BsSmartwatch/></p>  <p className='title'>SmartWatch</p></div>
           <div className='category'><p className='icon'><CiCamera/></p>  <p className='title'>Camera</p></div>
@@ -80,7 +94,7 @@ function Home() {
       <div className='secend-layer'>
       <div className='day'><div className='small-container'></div> <p className='today'>Our Products</p></div>
       <div className='time'><p className='title'>Explore Our Products</p></div>
-      <div><img src="src/pic/Frame 739.png" alt="" /></div>
+      <div className='img'><img src="src/pic/Frame 739.png" alt="" /></div>
       </div>
       <br />
       <br />

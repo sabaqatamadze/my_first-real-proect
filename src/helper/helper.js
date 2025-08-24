@@ -11,13 +11,8 @@ async function getAllProducts(skip, limit) {
   return data;
 }
 
-async function getCategoriesList(skip, limit) {
-  const resp = await axios.get("products/categories", {
-    params: {
-      limit,
-      skip,
-    },
-  });
+async function getCategoriesList() {
+  const resp = await axios.get("products/categories");
   const { data } = resp;
   return data;
 }

@@ -2,6 +2,7 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  margin-left: 50px;
 }
 .home hr {
   width: 1250px;
@@ -22,6 +23,7 @@
 }
 .home .home-container .home-right img {
   width: 900px;
+  margin-left: 150px;
 }
 .secend-layer {
   margin-left: 150px;
@@ -67,6 +69,7 @@
 .secend-layer .products {
   display: flex;
   flex-direction: row;
+  margin-left: 135px;
 }
 
 .secend-layer .prodact {
@@ -77,7 +80,6 @@
   background-color: red;
   color: white;
   cursor: pointer;
-  margin-left: 40%;
 }
 
 .secend-layer .category-container {
@@ -98,11 +100,15 @@
   justify-content: center;
   align-items: center;
 }
+.secend-layer .category-container .phone {
+  margin-left: 250px;
+}
 .secend-layer .category-container .category .icon {
   font-size: 3rem;
   margin: 0;
   padding: 0;
 }
+
 .secend-layer .category-container .category .title {
   font-size: 1.2rem;
   margin: 0;
@@ -117,6 +123,9 @@
   color: white;
   cursor: pointer;
   margin-left: 40%;
+}
+.secend-layer .img {
+  margin-left: -200px;
 }
 
 .home .img {

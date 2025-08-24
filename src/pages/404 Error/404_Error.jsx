@@ -1,5 +1,4 @@
-import React from 'react'
-import './404_Error.css'
+import './404_error.css'
 import { Link } from 'react-router-dom'
 
 function Error() {
