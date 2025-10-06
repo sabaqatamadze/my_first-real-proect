@@ -85,11 +85,16 @@
   color: white;
   cursor: pointer;
 }
-
-.secend-layer .category-container {
-  width: 1250px;
+.secend-layer .main-category-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-right: 250px;
+}
+.secend-layer .category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 .secend-layer .category-container .category {

@@ -88,42 +88,45 @@ function Home() {
             </button>
           </div>
         </div>
-        <div className="category-container">
-          <div className="category phone">
-            <p className="icon">
-              <MdOutlinePhoneIphone />
-            </p>{" "}
-            <p className="title">Phones</p>
-          </div>
-          <div className="category">
-            <p className="icon">
-              <HiOutlineDesktopComputer />
-            </p>{" "}
-            <p className="title">Computers</p>
-          </div>
-          <div className="category">
-            <p className="icon">
-              <BsSmartwatch />
-            </p>{" "}
-            <p className="title">SmartWatch</p>
-          </div>
-          <div className="category">
-            <p className="icon">
-              <CiCamera />
-            </p>{" "}
-            <p className="title">Camera</p>
-          </div>
-          <div className="category">
-            <p className="icon">
-              <CiHeadphones />
-            </p>{" "}
-            <p className="title">HeadPhones</p>
-          </div>
-          <div className="category">
-            <p className="icon">
-              <SiNintendo3Ds />
-            </p>{" "}
-            <p className="title">Gaming</p>
+
+        <div className="main-category-container">
+          <div className="category-container">
+            <div className="category phone">
+              <p className="icon">
+                <MdOutlinePhoneIphone />
+              </p>{" "}
+              <p className="title">Phones</p>
+            </div>
+            <div className="category">
+              <p className="icon">
+                <HiOutlineDesktopComputer />
+              </p>{" "}
+              <p className="title">Computers</p>
+            </div>
+            <div className="category">
+              <p className="icon">
+                <BsSmartwatch />
+              </p>{" "}
+              <p className="title">SmartWatch</p>
+            </div>
+            <div className="category">
+              <p className="icon">
+                <CiCamera />
+              </p>{" "}
+              <p className="title">Camera</p>
+            </div>
+            <div className="category">
+              <p className="icon">
+                <CiHeadphones />
+              </p>{" "}
+              <p className="title">HeadPhones</p>
+            </div>
+            <div className="category">
+              <p className="icon">
+                <SiNintendo3Ds />
+              </p>{" "}
+              <p className="title">Gaming</p>
+            </div>
           </div>
         </div>
       </div>
