@@ -2,7 +2,6 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  margin-left: 50px;
 }
 .home hr {
   width: 1250px;
@@ -51,6 +50,7 @@
 }
 .secend-layer .time .container {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   margin-right: 150px;
@@ -68,11 +68,15 @@
 }
 .secend-layer .products {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
-  margin-left: 135px;
 }
 
 .secend-layer .prodact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 150px;
   height: 40px;
   border-radius: 5px;

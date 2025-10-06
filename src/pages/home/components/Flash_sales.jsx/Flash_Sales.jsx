@@ -1,15 +1,14 @@
-import  { useState, useEffect } from "react";
-import { getAllProducts } from '../../../../helper/helper'
+import { useState, useEffect } from "react";
+import { getAllProducts } from "../../../../helper/helper";
 import FlashSales from "../../../../layout/FlashSales/FlashSales";
 import CartItem from "../../../../components/CartItem/cartItem";
 
 function Flash_Sales() {
-    const [flashSales, setFlashSales] = useState()
+  const [flashSales, setFlashSales] = useState();
 
-    useEffect(() => {
-        getAllProducts(0,4).then((resp) => setFlashSales(resp.products));
-        
-    }, [])
+  useEffect(() => {
+    getAllProducts(0, 4).then((resp) => setFlashSales(resp.products));
+  }, []);
   return (
     <>
       {flashSales?.length === 0 ? (
@@ -18,8 +17,7 @@ function Flash_Sales() {
         <h1>Loading...</h1>
       ) : (
         <FlashSales>
-          {
-          flashSales.map((el) => (
+          {flashSales.map((el) => (
             <CartItem
               key={el.id}
               id={el.id}
@@ -27,13 +25,12 @@ function Flash_Sales() {
               title={el.title}
               price={el.price}
               discountPercentage={el.discountPercentage}
-              />
+            />
           ))}
         </FlashSales>
       )}
-
     </>
-  )
+  );
 }
 
-export default Flash_Sales
+export default Flash_Sales;

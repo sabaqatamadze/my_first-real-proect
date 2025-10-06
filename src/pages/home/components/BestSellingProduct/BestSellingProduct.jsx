@@ -1,15 +1,14 @@
-import  { useState, useEffect } from "react";
-import { getAllProducts } from '../../../../helper/helper'
+import { useState, useEffect } from "react";
+import { getAllProducts } from "../../../../helper/helper";
 import BestSellingProducts from "../../../../layout/BestSellingProducts/BestSellingProducts";
 import CartItem from "../../../../components/CartItem/cartItem";
 
 function BestSellingProduct() {
-    const [bestSellingProducts, setbestSellingProducts] = useState()
+  const [bestSellingProducts, setbestSellingProducts] = useState();
 
-    useEffect(() => {
-        getAllProducts(4,4).then((resp) => setbestSellingProducts(resp.products)
-        )
-    }, [])
+  useEffect(() => {
+    getAllProducts(4, 4).then((resp) => setbestSellingProducts(resp.products));
+  }, []);
   return (
     <>
       {bestSellingProducts?.length === 0 ? (
@@ -18,8 +17,7 @@ function BestSellingProduct() {
         <h1>Loading...</h1>
       ) : (
         <BestSellingProducts>
-          {
-          bestSellingProducts.map((el) => (
+          {bestSellingProducts.map((el) => (
             <CartItem
               key={el.id}
               id={el.id}
@@ -31,9 +29,8 @@ function BestSellingProduct() {
           ))}
         </BestSellingProducts>
       )}
-
     </>
-  )
+  );
 }
 
-export default BestSellingProduct
+export default BestSellingProduct;

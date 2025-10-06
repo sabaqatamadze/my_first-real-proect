@@ -1,9 +1,7 @@
-import './Account.css'
+import "./Account.css";
 
 function Account() {
-  return (
-    <div className='account'>Account</div>
-  )
+  return <div className="account">Account</div>;
 }
 
-export default Account
+export default Account;

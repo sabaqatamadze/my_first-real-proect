@@ -1,15 +1,14 @@
-import  { useState, useEffect } from "react";
-import { getAllProducts } from '../../../../helper/helper'
+import { useState, useEffect } from "react";
+import { getAllProducts } from "../../../../helper/helper";
 import ExploreOurProducts from "../../../../layout/ExploreOurProducts/ExploreOurProducts";
 import CartItem from "../../../../components/CartItem/cartItem";
 
 function ExploreOurProduct() {
-    const [ExploreOurProduct, setExploreOurProduct] = useState()
+  const [ExploreOurProduct, setExploreOurProduct] = useState();
 
-    useEffect(() => {
-        getAllProducts(4,8).then((resp) => setExploreOurProduct(resp.products)
-        )
-    }, [])
+  useEffect(() => {
+    getAllProducts(4, 8).then((resp) => setExploreOurProduct(resp.products));
+  }, []);
   return (
     <>
       {ExploreOurProduct?.length === 0 ? (
@@ -18,8 +17,7 @@ function ExploreOurProduct() {
         <h1>Loading...</h1>
       ) : (
         <ExploreOurProducts>
-          {
-          ExploreOurProduct.map((el) => (
+          {ExploreOurProduct.map((el) => (
             <CartItem
               key={el.id}
               id={el.id}
@@ -31,9 +29,8 @@ function ExploreOurProduct() {
           ))}
         </ExploreOurProducts>
       )}
-
     </>
-  )
+  );
 }
 
-export default ExploreOurProduct
+export default ExploreOurProduct;

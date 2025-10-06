@@ -1,14 +1,13 @@
-import React from 'react'
-import Myroutes from './myroutes'
-import './App.css'
+import React from "react";
+import Myroutes from "./myroutes";
+import "./App.css";
 
 function App() {
   return (
     <div>
       <Myroutes />
-      
-      </div>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
